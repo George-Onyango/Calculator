@@ -1,36 +1,14 @@
-let add = function(number1, number2) {
-    return number1 + number2;
-    };
-    
-    var number1 = parseInt(prompt("Enter a number:"));
-    var number2 = parseInt(prompt("Enter another number:"));
-    var result = add(number1, number2);
-    alert(result);
+var enoughSleep = true;
+if (enoughSleep) {
+    console.log("I'm ready to go!");
+} else {
+    console.log("I need a nap.");
+}
+var temperature = 30
+if (temperature < 20) {
+    console.log("Don't forget a jacket!");
+} else {
+    console.log("Keep cool today!");
+};
 
-let subtract = function(number1, number2) {
-        return number1 - number2
-    };
-
-    var number1 = parseInt(prompt("Enter a digit:"));
-    var number2 =parseInt(prompt("Enter another digit:"));
-    var result = subtract (number1, number2);
-    alert(result);
-
-    let multiply = function(number1, number2) {
-        return number1 * number2
-    };
-
-    var number1 = parseInt(prompt("Enter a digit:"));
-    var number2 =parseInt(prompt("Enter another digit:"));
-    var result = multiply (number1, number2);
-    alert(result);
-
-    let divide = function(number1, number2) {
-        return number1 / number2
-    };
-
-    var number1 = parseInt(prompt("Enter a digit:"));
-    var number2 =parseInt(prompt("Enter another digit:"));
-    var result = divide (number1, number2);
-    alert(result);
-    
+temperature = (15)
