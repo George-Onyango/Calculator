@@ -1,14 +1,22 @@
-var enoughSleep = true;
-if (enoughSleep) {
-    console.log("I'm ready to go!");
-} else {
-    console.log("I need a nap.");
-}
-var temperature = 30
-if (temperature < 20) {
-    console.log("Don't forget a jacket!");
-} else {
-    console.log("Keep cool today!");
-};
+var add = function(number1, number2) {
+    return number1 + number2;
+  };
+  var subtract = function(number1, number2) {
+    return number1 - number2;
+  };
+  var multiply = function(number1, number2) {
+    return number1 * number2;
+  };
+  var divide = function(number1, number2) {
+    return number1 / number2;
+  };
 
-temperature = (15)
+  $(document).ready(function() {
+    $("form#add").submit(function(event) {
+    event.preventDefault();
+    var number1 = parseInt($("#add1").val());
+    var number2 = parseInt($("#add2").val());
+    var result = add(number1, number2);
+    $("#output").text(result);
+    });
+    });
